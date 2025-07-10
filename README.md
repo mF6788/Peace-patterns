@@ -86,6 +86,10 @@ For now, reach out via GitHub Discussions or open an Issue.
 
 ---
 
+## Reflections
+
+📖 [Stillness in the Heat](https://github.com/mF6788/Peace-patterns/blob/main/stillness-in-the-heat.md) — a poem written in a quiet moment with Sheriff.
+
 ## License
 
 MIT License — feel free to fork, remix, or expand upon with credit.
