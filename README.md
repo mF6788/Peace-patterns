@@ -38,7 +38,7 @@ This project includes a working demo script that uses OpenAI's GPT-4 to analyze 
 
 ### How to run
 
-1. Open the Replit project: [https://replit.com/@mF6788/Peace-patterns](https://replit.com/@mF6788/Peace-patterns)
+1. Open the Replit project: [https://replit.com/@mariaefox/Peace-patterns](https://replit.com/@mariaefox/Peace-patterns)
 2. Make sure you add your OpenAI API key:
    - Go to the 🔐 "Secrets" tab (left panel)
    - Add a new secret:
