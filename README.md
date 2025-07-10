@@ -32,6 +32,22 @@ We believe peace comes not just through treaties or politics, but through unders
 - OpenAI API (GPT-4o) for natural language analysis
 - GitHub for open collaboration
 - Optional: Streamlit, React, or similar for frontend interface
+## Running on Replit
+
+You can run this project online using [Replit](https://replit.com/@mariaefox/HugeFarBookmark):
+
+1. Open the Replit project here: [your-replit-link]
+2. Add your OpenAI API key as a secret environment variable named `OPENAI_API_KEY`.
+3. Click the **Run** button to start the program.
+4. By default, the project uses a mocked AI response to avoid API quota issues.
+5. To enable real AI responses:
+   - Replace the mock `analyze_text` function with the real API call.
+   - Ensure your OpenAI API key is set in the environment.
+6. The AI’s analysis output is saved to `output.txt`, which you can view in the file panel.
+
+---
+
+Feel free to reach out if you need help setting this up or want to contribute!
 
 ---
 
