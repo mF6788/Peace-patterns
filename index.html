@@ -1,36 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Peace Patterns</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 2rem;
-      text-align: center;
-      background-color: #f5f8fa;
-    }
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-    }
-    iframe {
-      border: none;
-      width: 100%;
-      max-width: 640px;
-      height: 800px;
-    }
-  </style>
-</head>
-<body>
-  <h1>🕊️ Peace Patterns</h1>
-  <p>Please share a reflection, insight, or hope for peace:</p>
+~/workspace$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+    modified:   main.py
+    modified:   static/style.css
+    modified:   templates/index.html
 
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeh8mWARSaP_iXPr89gRaOhmbvhwEBdrkt7R8p9EAz6PaHP7A/viewform?embedded=true" allowfullscreen></iframe>
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+    templates/hate-crime.html
+    templates/listening-circle.html
+    templates/noticeboard.html
+    templates/stories.html
 
-  <p style="margin-top: 2rem; font-size: 0.9rem; color: #555;">
-    Thank you for your voice. Every reflection matters.
-  </p>
-</body>
-</html>
+no changes added to commit (use "git add" and/or "git commit -a")
+~/workspace$ ^C
+~/workspace$ git add .
+~/workspace$ git commit -m "added peace dove emoji to header"
+[main 2c3f4d9] added peace dove emoji to header
+ 7 files changed, 251 insertions(+), 101 deletions(-)
+ create mode 100644 templates/hate-crime.html
+ create mode 100644 templates/listening-circle.html
+ create mode 100644 templates/noticeboard.html
+ create mode 100644 templates/stories.html
+~/workspace$ git push origin main
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+~/workspace$ git remote add origin https://github.com/mF6788/Peace-patterns.git
+~/workspace$ git init
+Reinitialized existing Git repository in /home/runner/workspace/.git/
+~/workspace$ git remote add origin https://github.com/mF6788/Peace-patterns.git
+error: remote origin already exists.
+~/workspace$ git remote -v
+origin  https://github.com/mF6788/Peace-patterns.git (fetch)
+origin  https://github.com/mF6788/Peace-patterns.git (push)
+~/workspace$ ^[[200~git add .
+git add .bash: git: command not found
+~/workspace$ ~git add .
+bash: ~git: command not found
+~/workspace$ 
